@@ -1,0 +1,141 @@
+box-sizing:border-box;
+font-family: 'Saira Extra Condensed', sans-serif;
+body{
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0
+    z-index:1000;
+}
+header li{
+    display: inline-block;
+
+}
+
+.menu,
+.filter-menu{
+text-align: center;
+display: inline-block;
+min-width: 900px;
+padding: 0;
+width: 100%;
+
+}
+
+.menu{
+    border-bottom: 1px solid #d3d3d3;
+    padding: 10px 20px;
+
+}
+
+.logo {
+  vertical-align: middle;/* para centrar el icono verticalmente*/
+
+}
+
+button{
+
+    border: 5px;
+    color: white;
+    padding:20px;
+    margin: 1px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.im1{
+    background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/ad/14/e2/ad14e2e5df6989a8c9595ac603661ee1.jpg);
+}
+
+.im2{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/ff/d2/66/ffd266b15bf6b269d7ce69151463d351.jpg);
+}
+
+.im3{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/60/f9/97/60f99734b0965f7c950ed8f931651f24.jpg);
+}
+
+.im4{
+  background-image:url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/11/1d/8d/111d8ddfd1cc0baa1a7dd266072af55d.jpg);
+}
+.im5{
+background-image:url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/08/87/5f/08875f8ab7d9db61cbebc143f30ee594.jpg);
+}
+.im6{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/ff/d2/66/ffd266b15bf6b269d7ce69151463d351.jpg);
+}
+
+.im7{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/cc/3a/09/cc3a09558dc92af327193f6f171ec96a.jpg);
+}
+.im8{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/06/3a/75/063a75598e4b3dc6f2d7ffb1a54a5ab2.jpg);
+}
+.im9{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/4f/95/af/4f95af9ce898caa09c8b4a34c640253a.jpg);
+}
+
+.search-box{
+  display: inline-block;
+  margin-right: 30px;
+
+}
+
+.search-filter{
+display: inline-block;
+margin-right: 40px;
+
+}
+
+.gray-icon{
+  display:inline-block;
+  margin: 30px;
+}
+
+form{
+  display: inline-block;/* pone los iconos uno al costado de otro*/
+}
+
+.logo i{ /*modifica el tamañño del icono*/
+  color:red;
+  font-size: 40px;
+  padding-right: 20px;
+
+
+}
+
+input{
+width: 700px;/*modificca el ttamaño del input */
+background-color: skyblue;/*color de fondo*/
+border: none;/* quita el borde para que se empareje con la clase barra*/
+padding: 10px;/* grosor del input*/
+
+}
+
+.barra{
+  background-color: skyblue;/*color de fondo */
+}
+.pintures{
+  display: inline-block;
+
+}
+
+.pintures img{
+  width: 100%;
+  margin: 0;
+  padding:0;
+  border-radius: 15px;
+}
+
+.images-result{
+  display: inline-block;
+  margin-top:220px;/* bajarlo para  que el header no lo tape*/
+  column-width:300px;
+  text-align: center;
+}
